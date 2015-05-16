@@ -47,7 +47,7 @@ public class Runner extends JComponent {
             public void run() {
                 JFrame frame = new JFrame("Point on circle");
                 frame.add(new Runner());
-                frame.setSize(400, 300);
+                frame.setSize(500, 500);
                 frame.setLocationRelativeTo(null);
                 frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
                 frame.setVisible(true);
